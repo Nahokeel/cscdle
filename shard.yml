@@ -1,0 +1,16 @@
+name: cscdle
+version: 0.1.0
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+  cscdle_words:
+    github: Nahokeel/cscdle_words
+
+targets:
+  cscdle:
+    main: src/cscdle.cr
+
+crystal: ">= 1.0.0"
+license: MIT
